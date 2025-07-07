@@ -1,5 +1,6 @@
 import './App.css'
 import TodoMainComponent from './components/TodoMainComponent'
+import Contacts from './components/Contacts'
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
         opacity: 0.3,
       }}>todos</h1>
       <TodoMainComponent />
+      <Contacts />
     </>
   )
 }
